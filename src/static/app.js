@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="participants-section">
               <strong>Participants:</strong>
               <ul class="participants-list no-bullets">
-                ${details.participants.map(p => `<li><span class="participant-email">${p}</span> <span class="delete-participant" title="Remove participant" data-activity="${name}" data-email="${p}">🗑️</span></li>`).join("")}
+                ${details.participants.map(p => `<li><span class="participant-email">${p}</span> <button class="delete-participant" aria-label="Remove participant" data-activity="${name}" data-email="${p}">🗑️</button></li>`).join("")}
               </ul>
             </div>
           `;
