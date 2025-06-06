@@ -164,6 +164,29 @@ footer {
   font-size: 15px;
 }
 
+.participants-list.no-bullets {
+  list-style-type: none;
+  margin: 8px 0 0 0;
+  padding-left: 0;
+}
+
+.delete-participant {
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 16px;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+
+.delete-participant:hover {
+  color: #a31515;
+}
+
+.participant-email {
+  font-family: monospace;
+}
+
 .no-participants {
   background-color: #f9f9f9;
   color: #888;
